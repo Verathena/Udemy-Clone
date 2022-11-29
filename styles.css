@@ -151,6 +151,7 @@
 }
 
 .section2{
+    display: relative;
     width: 100%;
     height: 535.08px;
     margin-left: 30px;
@@ -260,7 +261,9 @@
 }
 
 .scroll-arrow{
-    /* position: fixed; */
+    position: absolute;
+    left: 93%;
+    top: 890px;
 }
 
 .arrow{
@@ -269,13 +272,12 @@
     border-radius:50%;
     color: white;
     background-color: black;
-    position: fixed;
-    
+
 }
 
 .section3{
     padding: 32px;
-    /* width: 100%; */
+    width: 100%;
     height: 88px;
     background: #f7f9fa;
     display: flex;
@@ -310,18 +312,28 @@
 }
 
 .section4 .student-view{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-size: 24px;
-    margin: 0px 0px 8px;
+    margin-left: 32px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -.02rem;
 }
 
 .section4 .student-courses{
+    margin-top: 25px;
     width: 100%;
     display: flex;
     height: 330px;
     margin-left: 30px;
     color: #1C1D1F;
     margin-bottom: 50px;
+}
+
+.scrolling-arrow{
+    position: absolute;
+    left: 96%;
+    top: 1470px;
 }
 
 .student-view-img{
@@ -396,6 +408,122 @@
     font-size: 14px;
     background-color: transparent;
     border: 1px solid #1C1D1F;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 30px;
+}
+
+.section6{
+    margin-top: 60px;
+    width: 100%;
+    height:194.78px;
+    padding: 34px;
+    text-align: center;
+}
+
+.section6 h2{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.35;
+    letter-spacing: -.02rem;
+    margin-bottom: 10px;
+}
+
+.section6 p{
+    font-family: sans-serif, udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section6 .logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section7{
+    margin-top: 100px;
+
+}
+
+.section7a,
+.section7b{
+    width: 896px;
+    height: 400px;
+    display: flex;
+    margin: 0px auto;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+
+.business-logo{
+    width: 192px;
+    height: 32.67px;
+    margin-bottom: 16px;
+}
+
+.business-img,
+.section7-text{
+    width: 400px;
+    height: 400px;
+}
+
+.section7 h3{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+    color:#1C1D1F;
+}
+
+.section7 p,
+.section7 li{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 19px;
+}
+
+.section7 li{
+    list-style-type: disc;
+    margin: 0px 0px 0px 18px;
+    padding-top: 16px;
+}
+
+.section7 ul{
+    margin-left:10px;
+}
+
+.get-business-btn,
+.learn-more-btn,
+.teach-today-btn{
+    margin-top: 20px;
+    height: 48px;
+    padding: 0px 12px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #1c1d1f;
+}
+
+.learn-more-btn{
+    width: 109.48px;
+    background-color: white;
+}
+
+.get-business-btn,
+.teach-today-btn{
+    width: 177.2px;
+    color: white;
+    background-color: black;
+}
+
+.section7b-text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
 }
